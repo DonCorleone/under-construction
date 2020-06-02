@@ -49,8 +49,13 @@
   </head>
   <body>
     <main>
-      <h1>neva.wieland.lu</h1>
+      <p id="urlText">
+        <h1><span id="url">URL goes here</span></h1>
+      </p>
       <p>My website is under construction.</p>
     </main>
+    <script>
+      document.getElementById("url").textContent = document.URL;
+    </script>
   </body>
 </html>
